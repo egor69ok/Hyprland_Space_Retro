@@ -1,0 +1,79 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Inter", "Roboto", "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* Островки-одиночки */
+#workspaces, #window, #clock, #network, #bluetooth, #pulseaudio, #battery, #tray {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    padding: 0 15px;
+    margin: 4px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* --- СКЛЕЙКА ЖЕЛЕЗА (Твой стиль) --- */
+
+/* Начало склейки железа */
+/* --- МОНОЛИТНОЕ ЖЕЛЕЗО --- */
+
+#temperature {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #ff5555;
+    padding: 0 5px 0 15px;
+    margin: 4px 0 4px 4px; /* Прижимаем справа */
+    border-radius: 20px 0 0 20px;
+    /* Оставляем рамку только СВЕРХУ, СНИЗУ и СЛЕВА */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: none; 
+}
+
+#cpu, #memory {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 0 8px;
+    margin: 4px 0; /* Прижимаем с обеих сторон */
+    /* Оставляем рамку только СВЕРХУ и СНИЗУ */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+    border-right: none;
+}
+
+#disk {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    padding: 0 15px 0 5px;
+    margin: 4px 4px 4px 0; /* Прижимаем слева */
+    border-radius: 0 20px 20px 0;
+    /* Оставляем рамку только СВЕРХУ, СНИЗУ и СПРАВА */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+}
+
+/* --- ЦВЕТА И СОСТОЯНИЯ --- */
+
+#workspaces button {
+    padding: 0 8px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#workspaces button.active {
+    color: #dd8418;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#cpu { color: #dd8418; }
+#memory { color: #4eea8c; }
+#pulseaudio { color: #dd8418; }
+#network { color: #4eea8c; }
+
+#tray { padding: 0 10px; }

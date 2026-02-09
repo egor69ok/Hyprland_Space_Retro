@@ -1,0 +1,68 @@
+/* Полный компактный стиль для Wofi */
+
+* {
+    font-family: "Inter", "Roboto", "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 12px; /* Уменьшен шрифт */
+    font-weight: 600;
+}
+
+window {
+    margin: 0px;
+    background: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    padding: 12px; /* Уменьшено с 20px до 12px */
+    background-color: rgba(255, 255, 255, 0.15); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px; /* Более аккуратное скругление для малого окна */
+}
+
+#input {
+    margin: 5px;
+    padding: 8px 12px; /* Поле ввода стало ниже */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+#inner-box {
+    margin: 5px;
+}
+
+#entry {
+    padding: 8px 12px; /* Строки стали компактнее */
+    border-radius: 10px;
+    color: #ffffff;
+    transition: all 0.15s ease-in-out;
+}
+
+/* Твой янтарный акцент */
+#entry:selected {
+    background-color: #dd8418; 
+    border: none;
+    outline: none;
+}
+
+#text:selected {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+/* Уменьшаем саму иконку и расстояние до текста */
+#img {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+/* Чистим лишнее */
+#scroll {
+    border: none;
+}
+
+#inner-box {
+    border: none;
+}

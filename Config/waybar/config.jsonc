@@ -1,0 +1,105 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 26,
+    "margin-top": 2,
+    "margin-left": 10,
+    "margin-right": 10,
+
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["group/hardware", "network", "bluetooth", "pulseaudio", "battery", "tray"],
+
+    "group/hardware": {
+        "orientation": "horizontal",
+        "modules": ["temperature", "cpu", "memory", "disk"]
+    },
+
+    "temperature": {
+        "thermal-zone": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        "format-critical": "{temperatureC}°C ",
+        "format": "{temperatureC}°C "
+    },
+
+    "cpu": {
+        "format": " {usage}%",
+        "interval": 10
+    },
+
+    "memory": {
+        "format": " {used:0.1G}GB",
+        "interval": 30
+    },
+
+    "disk": {
+        "format": " {free}",
+        "path": "/",
+        "interval": 30
+    },
+    
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+            "default": "",
+            "active": "",
+            "urgent": ""
+        }
+    },
+
+    "bluetooth": {
+        "format": " {status}",
+        "format-disabled": "Off", 
+        "format-connected": " {device_alias}",
+        "on-click": "blueman-manager"
+    },
+
+    "hyprland/window": {
+        "format": "{title}",
+        "max-length": 30,
+        "separate-outputs": true
+    },
+
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+
+    "clock": {
+        "format": " {:%H:%M  %d.%m}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "Muted",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "kitty --class=floating_mixer -e pulsemixer"
+    },
+
+    "network": {
+        "format-wifi": " {essid}",
+        "format-ethernet": "eth",
+        "format-disconnected": "No Internet",
+        "on-click": "nm-connection-editor"
+    },
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    }
+}
