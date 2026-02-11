@@ -18,47 +18,47 @@ Hyprland Space Retro
 
 ---
 
-## ⌨️ Горячие клавиши (Keybindings)
+## ⌨️ Keybindings
 
-В моем конфиге клавиша **SUPER** (Win Key) обозначена как <kbd>🐧</kbd>.
+In this configuration, the **SUPER** key (Windows Key) is represented by the <kbd>🐧</kbd> icon.
 
-### 🚀 Основные приложения
-| Действие | Сочетание клавиш | Описание |
+### 🚀 Core Applications
+| Action | Keybinding | Description |
 | :--- | :--- | :--- |
-| 💻 **Terminal** | <kbd>🐧</kbd> + <kbd>Enter</kbd> | Запустить Kitty |
-| ❌ **Close** | <kbd>🐧</kbd> + <kbd>Q</kbd> | Закрыть активное окно |
-| 🌐 **Browser** | <kbd>🐧</kbd> + <kbd>N</kbd> | Открыть Firefox |
-| 💬 **Telegram** | <kbd>🐧</kbd> + <kbd>T</kbd> | Открыть Telegram |
-| 📂 **Files** | <kbd>🐧</kbd> + <kbd>E</kbd> | Проводник Thunar |
-| 🔍 **App Menu** | <kbd>🐧</kbd> + <kbd>D</kbd> | Меню запуска Wofi |
-| 📺 **Fullscreen** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> | Полноэкранный режим |
-| 🧊 **Floating** | <kbd>🐧</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Плавающее окно |
-| 🚪 **Exit** | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Delete</kbd> | Выход из Hyprland |
+| 💻 **Terminal** | <kbd>🐧</kbd> + <kbd>Enter</kbd> | Launch Kitty Terminal |
+| ❌ **Close** | <kbd>🐧</kbd> + <kbd>Q</kbd> | Kill active window |
+| 🌐 **Browser** | <kbd>🐧</kbd> + <kbd>N</kbd> | Open Firefox |
+| 💬 **Telegram** | <kbd>🐧</kbd> + <kbd>T</kbd> | Open Telegram |
+| 📂 **Files** | <kbd>🐧</kbd> + <kbd>E</kbd> | Open Thunar File Manager |
+| 🔍 **App Menu** | <kbd>🐧</kbd> + <kbd>D</kbd> | Launch Wofi (drun) |
+| 📺 **Fullscreen** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> | Toggle Fullscreen mode |
+| 🧊 **Floating** | <kbd>🐧</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Toggle Floating mode |
+| 🚪 **Exit** | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Delete</kbd> | Exit Hyprland session |
 
-### 📸 Скриншоты и Утилиты
-| Действие | Сочетание клавиш | Описание |
+### 📸 Screenshots & Utilities
+| Action | Keybinding | Description |
 | :--- | :--- | :--- |
-| 🔒 **Lock** | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> | Блокировка экрана |
-| 🖼️ **Wallpaper** | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> | Смена обоев |
-| 📸 **Screen** | <kbd>Print</kbd> | Скриншот всего экрана |
-| ✂️ **Area** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Скриншот области (Grim/Slurp) |
-| 🔄 **Bar** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Перезагрузить Waybar |
+| 🔒 **Lock** | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> | Lock screen via Swaylock |
+| 🖼️ **Wallpaper** | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> | Change wallpaper script |
+| 📸 **Screen** | <kbd>Print</kbd> | Capture full screen |
+| ✂️ **Area** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Area Snipping (Grim/Slurp) |
+| 🔄 **Bar** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Restart Waybar |
 
-### 🧭 Навигация и Воркспейсы
-| Действие | Сочетание клавиш | Описание |
+### 🧭 Navigation & Workspaces
+| Action | Keybinding | Description |
 | :--- | :--- | :--- |
-| 🎯 **Focus** | <kbd>🐧</kbd> + <kbd>Arrows</kbd> | Переместить фокус |
-| 🚚 **Move** | <kbd>🐧</kbd> + <kbd>Ctrl</kbd> + <kbd>Arrows</kbd> | Переместить окно |
-| 📐 **Resize** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>Arrows</kbd> | Изменить размер окна |
-| 🔢 **Workspaces** | <kbd>🐧</kbd> + <kbd>1-9</kbd> | Перейти на воркспейс |
-| 🏗️ **Move to WS** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>1-9</kbd> | Перенести окно на воркспейс |
-| 📥 **Scratchpad** | <kbd>🐧</kbd> + <kbd>U</kbd> | Специальный воркспейс |
+| 🎯 **Focus** | <kbd>🐧</kbd> + <kbd>Arrows</kbd> | Move window focus |
+| 🚚 **Move** | <kbd>🐧</kbd> + <kbd>Ctrl</kbd> + <kbd>Arrows</kbd> | Move window position |
+| 📐 **Resize** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>Arrows</kbd> | Resize active window |
+| 🔢 **Workspaces** | <kbd>🐧</kbd> + <kbd>1-0</kbd> | Switch to workspace |
+| 🏗️ **Move to WS** | <kbd>🐧</kbd> + <kbd>Shift</kbd> + <kbd>1-0</kbd> | Move window to workspace |
+| 📥 **Scratchpad** | <kbd>🐧</kbd> + <kbd>U</kbd> | Toggle special workspace |
 
 ---
 
-## 🛠️ Установка и Зависимости
+## 🛠️ Installation & Dependencies
 
-Чтобы всё работало как на скриншотах, установите следующие пакеты:
+To ensure everything works as intended, please install the following packages:
 
 ```bash
 sudo pacman -S hyprland kitty wofi thunar waybar swaylock grim slurp swappy
