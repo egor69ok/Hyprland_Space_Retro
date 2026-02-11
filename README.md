@@ -8,50 +8,36 @@ Hyprland Space Retro
 ![Screen 1](img/31.png)
 ![Screen 2](img/32.png)
 
-# 🐧 HYPRLAND KEYBINDINGS 🐧
+### ⌨️ Keybindings (Super = 🐧)
 
-> **$mainMod** = 🐧 (Super / Win Key)
+| Action | Keybinding | Description |
+| :--- | :--- | :--- |
+| **Terminal** | 🐧 + `Enter` | Launch default terminal |
+| **Close Window** | 🐧 + `Q` | Kill active window |
+| **Firefox** | 🐧 + `N` | Open browser |
+| **Telegram** | 🐧 + `T` | Open Telegram |
+| **File Manager** | 🐧 + `E` | Open Thunar |
+| **App Launcher** | 🐧 + `D` | Open Wofi (drun) |
+| **Fullscreen** | 🐧 + `Shift` + `F` | Toggle fullscreen mode |
+| **Floating** | 🐧 + `Alt` + `F` | Toggle floating mode |
+| **Group** | 🐧 + `G` | Toggle window group |
+| **Exit** | `Ctrl` + `Alt` + `Delete` | Exit Hyprland session |
 
-### 🚀 Apps & System
-* 🐧 + **Enter** ➔ 💻 Launch Terminal
-* 🐧 + **Q** ➔ ❌ Kill Active Window
-* 🐧 + **N** ➔ 🌐 Firefox
-* 🐧 + **T** ➔ 💬 Telegram
-* 🐧 + **E** ➔ 📂 File Manager (Thunar)
-* 🐧 + **D** ➔ 🔍 App Launcher (Wofi)
-* 🐧 + **Shift** + **F** ➔ 📺 Fullscreen Mode
-* 🐧 + **Alt** + **F** ➔ 🧊 Toggle Floating
-* 🐧 + **G** ➔ 🔗 Toggle Group
-* **Ctrl** + **Alt** + **Del** ➔ 🚪 Exit Hyprland
+#### 📸 Screenshots & Utils
+| Action | Keybinding | Description |
+| :--- | :--- | :--- |
+| **Lock Screen** | `Ctrl` + `Alt` + `L` | Lock screen via Swaylock |
+| **Wallpaper** | `Ctrl` + `Alt` + `W` | Random wallpaper script |
+| **Screenshot** | `Print` | Full screen capture |
+| **Area Snipping** | 🐧 + `Shift` + `S` | Select area and edit (grim/slurp) |
 
----
-
-### 🛠️ Management & Utils
-* 🐧 + **Shift** + **R** ➔ 🔄 Restart Waybar
-* **Ctrl** + **Alt** + **L** ➔ 🔒 Lock Screen
-* **Ctrl** + **Alt** + **W** ➔ 🖼️ Change Wallpaper
-* **Print** ➔ 📸 Full Screenshot
-* 🐧 + **Shift** + **S** ➔ ✂️ Area Screenshot
-
----
-
-### 🖱️ Window Navigation
-* 🐧 + **Arrows** ➔ 🎯 Move Focus
-* **Alt** + **Tab** ➔ 🔄 Cycle Windows
-* 🐧 + **Ctrl** + **Arrows** ➔ 🚚 Move Window Position
-* 🐧 + **Shift** + **Arrows** ➔ 📐 Resize Window
-
----
-
-### 📂 Workspaces
-* 🐧 + **0-9** ➔ 🔢 Switch Workspace
-* 🐧 + **Shift** + **0-9** ➔ 🏗️ Move Window to Workspace
-* 🐧 + **U** ➔ 📥 Special Workspace (Scratchpad)
-* 🐧 + **Tab** ➔ ➡️ Next Workspace
-
----
-
-### 🖱️ Mouse Bindings
-* 🐧 + **LMB** ➔ 👆 Move Window
-* 🐧 + **RMB** ➔ 📐 Resize Window
+#### 📑 Workspaces & Navigation
+| Action | Keybinding | Description |
+| :--- | :--- | :--- |
+| **Switch Focus** | 🐧 + `Arrows` | Move focus between windows |
+| **Move Window** | 🐧 + `Ctrl` + `Arrows` | Move window position |
+| **Resize Window** | 🐧 + `Shift` + `Arrows` | Change window size |
+| **Workspaces** | 🐧 + `0-9` | Switch to workspace 0-10 |
+| **Move to WS** | 🐧 + `Shift` + `0-9` | Move window to workspace 0-10 |
+| **Scratchpad** | 🐧 + `U` | Toggle special workspace |
 
