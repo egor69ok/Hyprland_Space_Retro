@@ -1,4 +1,4 @@
-# Hyprland Space Retro
+# Hyprland Space Retro Full HD
 Hyprland Space Retro
 
 ![Screen 1](img/11.png)
