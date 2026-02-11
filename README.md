@@ -1,4 +1,4 @@
-# Hyprland_Space_Retro
+# Hyprland Space Retro
 Hyprland Space Retro
 
 ![Screen 1](img/11.png)
