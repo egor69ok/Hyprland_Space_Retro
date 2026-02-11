@@ -1,0 +1,10 @@
+# Arch Linux установить системные пакеты Java и Android SDK
+sudo pacman -S jdk17-openjdk
+# Установка Android SDK
+yay -S android-sdk android-sdk-platform-tools android-sdk-build-tools
+# Генерация Debug Keystore
+keytool -keyalg RSA -genkeypair -alias androiddebugkey -keypass android -keystore ~/debug.keystore -storepass android -dname "CN=Android Debug,O=Android,C=US" -validity 9999 -deststoretype pkcs12
+
+#Android SDK Path: /opt/android-sdk (или путь из Варианта Б).
+#Debug Keystore: /home/ваш_пользователь/debug.keystore.
+#Java SDK Path: /usr/lib/jvm/java-17-openjdk. 
